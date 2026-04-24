@@ -1,6 +1,7 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import router from './Router';
+// import { RouterLink, RouterView } from 'vue-router'
+// import router from './Router';
+import N2 from"./View/about/N2.vue"
 </script>
 
 <template>
@@ -8,9 +9,10 @@ import router from './Router';
     <!-- <router-link to="/">Home</router-link> |
     <router-link to="/about">关于</router-link> |
     <router-link :to="{path: '/about',}">关于2</router-link> -->
-    <router-link :to="{path: '/'}"></router-link>
+    <!-- <router-link :to="{path: '/'}"></router-link>
     <router-link :to="{path: '/'}"
-    <RouterView />
+    <RouterView /> -->
+    <N2 />
   </div>
 </template>
 
